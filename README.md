@@ -16,7 +16,7 @@
 ![Contributors](https://img.shields.io/github/contributors/CodeWarrior-debug/PokeBaller?color=dark-green) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table Of Contents
-[About the Project](#about-the-project) | [Built With](#built-with) | [Getting Started](#getting-started) | [Authors](#authors) | [Acknowledgements](#acknowledgements) | [License](#license)
+[About the Project](#about-the-project) | [Built With](#built-with) | [Getting Started](#getting-started) | [Context] (#context)| [Authors](#authors) | [Acknowledgements](#acknowledgements) | [License](#license)
 
 ## About The Project
 ![Screen Shot](https://github.com/CodeWarrior-debug/PokeBaller/blob/main/public/images/Pokeballer_Rep_Pic.png?raw=true)
@@ -32,9 +32,11 @@ Want to digitally track your Pokemon trading cards? Then Pokeballer is the app f
 * [Node](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com/)
 
-## Usage
+## Context
 
-![gif](https://imgur.com/DobRtAk)
+Originally built as a project for a Trilogy Education Services Bootcamp, PokeBaller has been refined and shows a grasp of Model-View-Controller concepts, Handlebars implementation, and front-end design with Bootstrap.
+
+Here is the [powerpoint](https://docs.google.com/presentation/d/1KbDNIhyXNIpK5oZnzSKNHNqseoR5SB3wPzDyNt7kMuY/edit#slide=id.p) explaining the original.
 
 ## Getting Started
 
