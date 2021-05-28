@@ -34,7 +34,7 @@ Want to digitally track your Pokemon trading cards? Then Pokeballer is the app f
 
 ## Usage
 
-![GIF](https://discord.com/channels/@me/821809956613128202/847937895716225024)
+![gif](https://imgur.com/DobRtAk)
 
 ## Getting Started
 
