@@ -56,8 +56,8 @@ After cloning into your IDE and changing directory into the Pokeballer folder:
 
 ## Acknowledgements
 
-*[ShaanCoding](https://github.com/ShaanCoding/)
-Trilogy Education Services
+* [ShaanCoding](https://github.com/ShaanCoding/)
+* Trilogy Education Services
 
 ## License
 
