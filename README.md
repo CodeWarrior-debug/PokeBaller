@@ -34,9 +34,9 @@ Want to digitally track your Pokemon trading cards? Then Pokeballer is the app f
 
 ## Context
 
-Originally built as a project for a Trilogy Education Services Bootcamp, PokeBaller has been refined and shows a grasp of Model-View-Controller concepts, Handlebars implementation, and front-end design with Bootstrap.
+Originally built as a project for a Trilogy Education Services full-stack web development bootcamp, PokeBaller has been refined and shows a grasp of Model-View-Controller concepts, Handlebars implementation, and front-end design with Bootstrap.
 
-Here is the [powerpoint](https://docs.google.com/presentation/d/1KbDNIhyXNIpK5oZnzSKNHNqseoR5SB3wPzDyNt7kMuY/edit#slide=id.p) explaining the original.
+Here is the [powerpoint](https://docs.google.com/presentation/d/1KbDNIhyXNIpK5oZnzSKNHNqseoR5SB3wPzDyNt7kMuY/edit#slide=id.p) explaining the original project.
 
 ## Getting Started
 
