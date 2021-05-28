@@ -15,7 +15,6 @@
 
 ![Contributors](https://img.shields.io/github/contributors/CodeWarrior-debug/PokeBaller?color=dark-green) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-See ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT) for more information.
 ## Table Of Contents
 [About the Project](#about-the-project) | [Built With](#built-with) | [Getting Started](#getting-started) | [Authors](#authors) | [Acknowledgements](#acknowledgements) | [License](#license)
 
