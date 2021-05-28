@@ -32,6 +32,10 @@ Want to digitally track your Pokemon trading cards? Then Pokeballer is the app f
 * [Node](https://nodejs.org/en/)
 * [Bootstrap](https://getbootstrap.com/)
 
+## Usage
+
+![GIF](https://discord.com/channels/@me/821809956613128202/847937895716225024)
+
 ## Getting Started
 
 To get a local copy up and running - watch the video, or follow steps below! 
