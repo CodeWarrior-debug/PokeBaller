@@ -48,11 +48,11 @@ After cloning into your IDE and changing directory into the Pokeballer folder:
 
 ## Authors
 
-*[James Jordan](https://github.com/CodeWarrior-debug) - *Back-End & Sequelize*
-*[Nicholas Marrone](https://github.com/NicholasMarrone-1997) - *Front-End & Original models*
-*[Nathan Kent](https://github.com/ngkent75) - *GitHub Repository Manager & Back-End*
-*[Dylan Jacobs](https://github.com/dylanjacobb) - *Front-End & Routes*
-*[Sommer Moya-Mendes](https://github.com/smoyamendez) - *Front-End & Artwork*
+* [James Jordan](https://github.com/CodeWarrior-debug) - *Back-End & Sequelize*
+* [Nicholas Marrone](https://github.com/NicholasMarrone-1997) - *Front-End & Original models*
+* [Nathan Kent](https://github.com/ngkent75) - *GitHub Repository Manager & Back-End*
+* [Dylan Jacobs](https://github.com/dylanjacobb) - *Front-End & Routes*
+* [Sommer Moya-Mendes](https://github.com/smoyamendez) - *Front-End & Artwork*
 
 ## Acknowledgements
 
