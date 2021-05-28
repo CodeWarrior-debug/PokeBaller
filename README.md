@@ -15,19 +15,13 @@
 
 ![Contributors](https://img.shields.io/github/contributors/CodeWarrior-debug/PokeBaller?color=dark-green) ![License](https://img.shields.io/github/license/CodeWarrior-debug/PokeBaller) 
 
+## Table Of Contents
+[About the Project](#about-the-project) | [Built With](#built-with) | [Getting Started](#getting-started) | [Authors](#authors) | [Acknowledgements](#acknowledgements) | [License](#license)
+
 ## About The Project
 ![Screen Shot](https://github.com/CodeWarrior-debug/PokeBaller/blob/main/public/images/Pokeballer_Rep_Pic.png?raw=true)
 
-Want to digitally track your Pokemon trading cards? Then Pokeballer is the app for you! Loading Pokemon TCG data and images, Pokeballer lets users add their cards to a digital collection & view all the available cards for each Pokemon. Have your Pokemon trading card collection on any device with PokeBaller! 
-
-## Table Of Contents
-
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-* [License](#license)
-* [Authors](#authors)
-* [Acknowledgements](#acknowledgements)
+Want to digitally track your Pokemon trading cards? Then Pokeballer is the app for you! Loading Pokemon TCG data and images, Pokeballer lets users add their cards to a digital collection & view all the available cards for each Pokemon. Have your Pokemon trading card collection on any device with PokeBaller!
 
 ## Built With
 
