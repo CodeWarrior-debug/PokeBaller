@@ -48,15 +48,15 @@ After cloning into your IDE and changing directory into the Pokeballer folder:
 
 ## Authors
 
-James Jordan  [James Jordan](https://github.com/CodeWarrior-debug) - *Back-End & Sequelize*
-NicholasMarrone-1997  [NicholasMarrone-1997](https://github.com/NicholasMarrone-1997) - *Front-End & Original models*
-Nathan Kent  [Nathan Kent](https://github.com/ngkent75) - *GitHub Repository Manager & Back-End*
-Dylan Jacobs  [Dylan Jacobs](https://github.com/dylanjacobb) - *Front-End & Routes*
-Sommer Moya-Mendes  [Sommer Moya-Mendes](https://github.com/smoyamendez) - *Front-End & Artwork*
+*[James Jordan](https://github.com/CodeWarrior-debug) - *Back-End & Sequelize*
+*[Nicholas Marrone](https://github.com/NicholasMarrone-1997) - *Front-End & Original models*
+*[Nathan Kent](https://github.com/ngkent75) - *GitHub Repository Manager & Back-End*
+*[Dylan Jacobs](https://github.com/dylanjacobb) - *Front-End & Routes*
+*[Sommer Moya-Mendes](https://github.com/smoyamendez) - *Front-End & Artwork*
 
 ## Acknowledgements
 
-* [ShaanCoding](https://github.com/ShaanCoding/)
+*[ShaanCoding](https://github.com/ShaanCoding/)
 Trilogy Education Services
 
 ## License
@@ -82,8 +82,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-
