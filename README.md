@@ -1,67 +1,70 @@
-<br/>
-<p align="center">
-  <a href="https://github.com/CodeWarrior-debug/PokeBaller">
-    <img src="https://github.com/CodeWarrior-debug/PokeBaller/blob/main/public/images/pokeball.png?raw=true" alt="Logo" width="80" height="80">
-  </a>
+# Getting Started with Create React App
 
-  <h3 align="center">PokeBaller: Gotta Collect 'Em All!</h3>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-  <p align="center">
-    <a href="https://github.com/CodeWarrior-debug/PokeBaller"><strong>Explore the docs »</strong></a>
-    <br/>
-    <br/>
-  </p>
-</p>
+## Available Scripts
 
-![Contributors](https://img.shields.io/github/contributors/CodeWarrior-debug/PokeBaller?color=dark-green) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+In the project directory, you can run:
 
-## Table Of Contents
-[About the Project](#about-the-project) | [Built With](#built-with) | [Getting Started](#getting-started) | [Context] (#context)| [Authors](#authors) | [Acknowledgements](#acknowledgements) | [License](#license)
+### `npm start`
 
-## About The Project
-![Screen Shot](https://github.com/CodeWarrior-debug/PokeBaller/blob/main/public/images/Pokeballer_Rep_Pic.png?raw=true)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Want to digitally track your Pokemon trading cards? Then Pokeballer is the app for you! Loading Pokemon TCG data and images, Pokeballer lets users add their cards to a digital collection & view all the available cards for each Pokemon. Have your Pokemon trading card collection on any device with PokeBaller!
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Built With
+### `npm test`
 
-* [Express](https://expressjs.com/)
-* [Handlebars](https://handlebarsjs.com/)
-* [sequelize](https://sequelize.org/)
-* [pokemontcgsdk](https://pokemontcg.io/)
-* [Node](https://nodejs.org/en/)
-* [Bootstrap](https://getbootstrap.com/)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Context
+### `npm run build`
 
-Originally built as a project for a Trilogy Education Services full-stack web development bootcamp, PokeBaller has been refined and shows a grasp of Model-View-Controller concepts, Handlebars implementation, and front-end design with Bootstrap.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Here is the [powerpoint](https://docs.google.com/presentation/d/1KbDNIhyXNIpK5oZnzSKNHNqseoR5SB3wPzDyNt7kMuY/edit#slide=id.p) explaining the original project.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Getting Started
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-To get a local copy up and running - watch the video, or follow steps below! 
+### `npm run eject`
 
-After cloning into your IDE and changing directory into the Pokeballer folder:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1) Rename the .env copy file to just .env
-2) Go to the Pokemon Trading Card docs, get an API key & paste into .env.
-3) Run "npm i" in your terminal to install dependencies.
-4) Make sure mySQL is connected on your computer, then run the schema script (using plugin/Workbench).
-5) In terminal, "npm run seed" to seed the database.
-6) In terminal, "npm start" to begin a server.
-7) The terminal will show a web address where the website is now running! Navigate there with CTRL + click and try out Pokeballer!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Authors
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-* [James Jordan](https://github.com/CodeWarrior-debug) - *Back-End & Sequelize*
-* [Nicholas Marrone](https://github.com/NicholasMarrone-1997) - *Front-End & Original models*
-* [Nathan Kent](https://github.com/ngkent75) - *GitHub Repository Manager & Back-End*
-* [Dylan Jacobs](https://github.com/dylanjacobb) - *Front-End & Routes*
-* [Sommer Moya-Mendes](https://github.com/smoyamendez) - *Front-End & Artwork*
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Acknowledgements
+## Learn More
 
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* Trilogy Education Services
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
