@@ -84,7 +84,9 @@ router.get('/random/pokemon', async (req, res) => {
         console.log(page);
         pokemon.card.where({ pageSize:5, page })
             .then((cards) => {
+                //what is this shuffle/lodash used for?
                 const randomData = shuffle(cards.data)
+
                 res.status(200).json(randomData.map(card => {
                   return {
                     name: card.name,

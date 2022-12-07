@@ -9,7 +9,7 @@ const {
   User,
   Pokemon,
 } = require('../models');
-// const shuffle = require('lodash.shuffle');
+const shuffle = require('lodash.shuffle');
 
 
 // ANYTHING WITH WITHAUTH WILL REDIRECT YOU TO LOGIN IF YOU AREN'T ALREADY LOGGED IN
