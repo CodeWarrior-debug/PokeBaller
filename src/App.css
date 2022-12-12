@@ -1,38 +1,264 @@
-.App {
-  text-align: center;
+/* RESET ************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  max-width: 1000px ;
+  min-width: 150px;
+  width: 45%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+/* MEDIA QUERIES ****************************************/
+@media only screen and (max-width : 600px) {
+  .card {
+      width: 75%;
   }
+  .logo {
+      width: 100%;
+  }
+  .logocontainer {
+      width: 100%;
+  }
+  .search {
+      width: 75%;
+      height: auto;
+  }
+  .navbar {
+      text-align: center;
+      margin: 0;
+  padding: 0;
+  text-align: center;
+      
+  }
+  nav ul {
+      margin: 0;
+      padding: 10px;
+      justify-content: center;
+  }
+  nav li {
+      display: inline;
+      justify-content: center;
+  }
+  nav a {
+      display: inline-block;
+      padding: 1em;
+      justify-content: center;
+  }
+  .header-two {
+      text-align: center;
+
+  }
+  .container {
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center; */
+      width: 100%;
+  }
+} */
+
+body {
+  font-family: 'Hind', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* FONT STYLE ON HEADERS ********************************/
+.poke-red {
+  color: red;
+}
+
+.header-two {
+  margin: 20px;
+  font-family: 'Hind', sans-serif;
+}
+
+/* LOGIN/SIGNUP PAGE STYLES *****************************/
+
+.container {
+  max-width: 1250px;
+}
+
+.container h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 44px;
+  margin-bottom: 40px;
+  width: 100%
+}
+.container p {
+  font-size: 24px;
+}
+
+.addbox  {
+  margin: 20px;
+  padding: 0px;
+}
+.addbox h2 {
+  font-family: 'Hind', sans-serif;
+  font-size: 44px;
+  margin-bottom: 40px;
+  width: 100%
+}
+.addbox p {
+  font-size: 24px;
+  font-family: 'Hind', sans-serif;
+}
+
+.login-box {
+  margin: 60px 20px 20px 20px;
+}
+
+.signup-box {
+  margin: 60px 20px 20px 20px;
+
+}
+
+
+/* STYLING FOR EACH CARD DISPLAY ************************/
+.card {
+  margin: 20px;
+  /* align-content: center; */
+  padding: 0;
+  border: none;
+  box-shadow: 0 0 20px rgb(14, 14, 14);
+  transition: 1s;
+  position: relative;
+}
+
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* Styling on hover */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background-color: transparent;
+  margin: auto;
+}
+
+.card:hover .overlay {
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.rare-text {
+  color: transparent;
+  opacity: 1;
+  font-size: 20px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  transition: .5s ease;
+}
+
+.card:hover .rare-text{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card-table {
+  justify-content: center;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* NAV BAR STYLING **************************************/
+#navbarDropdownMenuLink {
+  max-width: 200px;
+}
+
+#add-crd {
+  margin: 60px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logout {
+  color: red;
+
+}
+
+.nav-link:hover {
+  color: red;
+  text-shadow: 0px 0px 3px white;
+  
+}
+
+.logout:hover {
+  color: white;
+  text-shadow: 0px 0px 5px red;
+
+}
+
+/* SEARCH FORM STYLING ***********************************/
+#search-card {
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+/* .sample-search {
+  width: 320px;
+} */
+
+.search {
+  /* position: relative; */
+  bottom: 20px;
+  border: 6px solid black;
+  border-radius: 5px;
+  padding-top: 1%;
+  padding-bottom: 5%;
+  background: linear-gradient(red, darkred);
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+}
+
+/* HOMEPAGE FORM STYLING *****************************/
+
+input {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#BtnCard {
+  background-color: white;
+  padding: 2px;
+  font-family: 'Hind', sans-serif;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+  grid-column-gap: 30px;
+  margin: 15px;
+}
+
+.btn-outline-secondary {
+/* background-color: #83A00A; */
+/* color: #C53A83; */
+color: #83A00A;
+}
+
+.modalColor {
+  background-color: red;
+}
+
+.modalFont {
+  color: red;
+  font-weight: bold;
 }
