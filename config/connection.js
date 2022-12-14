@@ -13,7 +13,7 @@ let sequelize;
     'pokemon_db',
     // process.env.DB_NAME,
     process.env.DB_USER,
-    process.env.DB_PASSWORD,
+    'password1',
     // process.env.DIALECT,
     {
       username:'root', 
