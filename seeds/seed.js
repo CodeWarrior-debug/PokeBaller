@@ -5,7 +5,7 @@ const seedPokemonUser = require('./pokemonUserData.js');
 const seedPokemon = require('./pokemonData.js');
 
 const seedDatabase = async () => {
-  await sequelize.sync({ force: true });
+  await sequelize.sync();
 
   await seedPokemon();
   

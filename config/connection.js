@@ -3,19 +3,25 @@ require('dotenv').config();
 
 let sequelize;
 
-if (process.env.JAWSDB_URL) {
-  sequelize = new Sequelize(process.env.JAWSDB_URL);
-} else {
+//TODO for some reason, the database name is not being picked up from the .env file. however, hard coding in 'pokemon_db' works to allow for seeding of the db.
+
+
+// if (process.env.JAWSDB_URL) {
+//   sequelize = new Sequelize(process.env.JAWSDB_URL);
+// } else {
   sequelize = new Sequelize(
-    process.env.DB_NAME,
+    'pokemon_db',
+    // process.env.DB_NAME,
     process.env.DB_USER,
     process.env.DB_PASSWORD,
+    // process.env.DIALECT,
     {
+      username:'root', 
       host: 'localhost',
       dialect: 'mysql',
-      port: 3306
+      // port: 3306
     }
   );
-}
+// }
 
 module.exports = sequelize;
