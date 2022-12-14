@@ -1,24 +1,37 @@
 import React from "react";
 import LoginHeader from "../components/loginheader";
 import Navbar from "../components/navbar";
+import Suggestions from "../components/suggestions";
+import Welcome from "../components/welcome";
 
 const Home = () => {
   return (
     <>
       <LoginHeader />
       <Navbar />
-      <div className="container-fluid justify-content-center text-center container mt-3">
-        <h2>
-          {" "}
-          <span className="poke-red">Welcome to Poke</span>Baller!
-        </h2>
-        <p>
-          Use PokeBaller to add and keep track of cards in your own personal
-          digital collection.
-        </p>
-        <p>Navigate to "add" to begin compiling cards to your collection.</p>
-        <p>To see your collection, navigate to "view."</p>
-      </div>
+      <Welcome/>
+      <Suggestions/>
+
+
+{/* Componenet - Suggested Card */}
+
+
+        {/* {{#each suggested}} */}
+
+
+        {/* <button onclick="add('{{rid}}', '{{rname}}', '{{rrarity}}', '{{rimages}}')" className="card col-2">
+            <img src="{{rimages}}" className="img-responsive w-100" alt="{{rname}}"/>
+            <div className="overlay">
+                <p className="rare-text">
+                  {/* {{rrarity}} */}
+                  {/* </p>
+            </div>
+        </button> */} 
+
+
+        {/* {{/each}} */}
+
+
     </>
   );
 };
