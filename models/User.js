@@ -2,35 +2,44 @@ const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection.js");
 const bcrypt=require('bcrypt');
 
-class Pokemon extends Model {}
+class User extends Model {}
 
-Pokemon.init({
-  id: {
-    type: DataTypes.STRING,
-    allowNull: false,
-    primaryKey: true,
-  },
-  name: {
+User.init({
+  username: {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  rarity: {
+  email: {
     type: DataTypes.STRING,
     allowNull: false,
+    unique: true,
+    validate: {
+        isEmail: true,
+    },
   },
-  images: {
+  password: {
     type: DataTypes.STRING,
     allowNull: false,
-  },  
+    validate: {
+        len:[8],
+    },
+  }, 
+},
+{
+    hooks: {
+        beforeCreate: async (newUserData)=>{
+            newUserData.password= await bcrypt.hash(newUserData.password,10)
+            return newUserData;
+        },
+    },
 },
 {
     sequelize,
-    freezeTableName:true,
+    freezeTableName: true,
     underscored:true,
-    modelName:'pokemon',
+    modelName:'user'
 }
-
 
 );
 
-Model.exports=Pokemon;
+Model.exports=User;
