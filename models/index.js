@@ -1,7 +1,12 @@
-const router = require('express').Router();
+const User = require('./User');
+const Pokemon = require('./Pokemon');
+const PokemonUser = require('./PokemonUser');
 
-const homeRoutes = require('./homeRoutes');
 
-router.use('/',homeRoutes)
+Pokemon.belongsToMany(User, { through: PokemonUser, foreignKey: 'pokemon_id' });
 
-module.exports= router;
+User.belongsToMany(Pokemon, { through: PokemonUser, foreignKey: 'user_id' });
+
+
+
+module.exports = { Pokemon, User, PokemonUser };

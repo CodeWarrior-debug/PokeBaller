@@ -9,7 +9,7 @@ const LoginHeader = () => {
             <img
               src="/images/pokeballer-logo-sm.png"
               alt="PokeBaller"
-              class="logo"
+              className="logo"
             />
           </a>
         </div>

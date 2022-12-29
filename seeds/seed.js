@@ -1,0 +1,20 @@
+const sequelize = require('../config/connection');
+
+const seedUser = require('./userData.js');
+const seedPokemonUser = require('./pokemonUserData.js');
+const seedPokemon = require('./pokemonData.js');
+
+const seedDatabase = async () => {
+  await sequelize.sync();
+
+  await seedPokemon();
+  
+  await seedUser();
+  
+  await seedPokemonUser();
+
+  process.exit(0);
+};
+
+seedDatabase();
+

@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "ea03c2dc-485c-4c3e-8b51-718cb9543a56",
+    "colId": "ad7fd12c-27d9-4d88-90ca-917105dc8bf8",
+    "containerId": "",
+    "name": "https://api.pokemontcg.io/v2/cards?q=name:charizard",
+    "url": "https://api.pokemontcg.io/v2/cards?q=name:charizard",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-28T16:05:51.415Z",
+    "modified": "2022-12-28T16:05:51.415Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "q",
+        "value": "name:charizard",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
