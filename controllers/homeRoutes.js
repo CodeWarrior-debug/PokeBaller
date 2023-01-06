@@ -11,7 +11,7 @@ const {
 } = require('../models')
 
 
-router.get('/homepage', async(req,res)=>{
+router.get('/home', async(req,res)=>{
 
     pokemon.card.find('base1-4')
         .then(
